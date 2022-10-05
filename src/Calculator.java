@@ -1,18 +1,26 @@
 public class Calculator {
-    public void plus(int first, int second) {
-        System.out.println(first + second);
+
+    private int a;
+    private int b;
+
+    public Calculator(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
+    public void plus() {
+        System.out.println(a + b);
     }
 
-    public void minus(int first, int second) {
-        System.out.println(first - second);
+    public void minus() {
+        System.out.println(a - b);
     }
 
-    public void multiple(int first, int second) {
-        System.out.println(first * second);
+    public void multiple() {
+        System.out.println(a * b);
     }
 
-    public void divide(int first, int second) {
-        double result =  (double) first / second;
+    public void divide() {
+        double result =  (double) a / b;
         System.out.println(result);
     }
 }
