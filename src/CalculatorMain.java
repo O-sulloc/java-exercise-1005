@@ -5,6 +5,6 @@ public class CalculatorMain {
         cal.plus(1,5);
         cal.minus(5,2);
         cal.multiple(12,5);
-        cal.divide(128,8);
+        cal.divide(10,20);
     }
 }

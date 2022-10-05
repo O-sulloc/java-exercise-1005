@@ -12,6 +12,7 @@ public class Calculator {
     }
 
     public void divide(int first, int second) {
-        System.out.println(first / second);
+        double result =  (double) first / second;
+        System.out.println(result);
     }
 }
