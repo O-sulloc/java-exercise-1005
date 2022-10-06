@@ -1,2 +1,2 @@
 # java-exercise-1005
-# Daty2
+# Day 2
